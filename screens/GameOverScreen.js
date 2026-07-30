@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 24,
     justifyContent: "center",
-    alignContent: "center",
+    alignItems: 'center',
   },
   imageContainer: {
     width: 300,
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: Colors.primary800,
     overflow: "hidden",
-    margin: 36,
+    marginVertical: 20,
   },
   image: {
     width: "100%",
